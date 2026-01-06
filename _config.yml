@@ -1,57 +1,50 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
+title                    : "Zihan Wang"
+description              : "M.S. incoming at Tsinghua University (Sep. 2026). B.Eng. in CS at Xi'an Jiaotong University. Research interests: LLMs & NLP (alignment, agents, reasoning); data-centric methods (selection/mixing/synthesis); self-evolving agents and AI for scientific research."
 repository               : "RayeRen/acad-homepage.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id      :  # TODO: fill if you want analytics
 
 # SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+google_site_verification :  # TODO
+bing_site_verification   :  # TODO
+baidu_site_verification  :  # TODO
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  name             : "Zihan Wang"
+  avatar           : "images/android-chrome-512x512.png"   # TODO: replace with your photo if you want
+  bio              : "Incoming M.S. student at Tsinghua University. Interested in LLM alignment, agents, reasoning, and data-centric training."
+  location         : "Beijing, China"   # (you can also write "Xi'an / Beijing, China")
+  employer         :                    # TODO: optional (e.g., "Tsinghua University")
+  pubmed           :
+  googlescholar    : "https://scholar.google.com/citations?user=eToPcFsAAAAJ&hl=zh-CN"
+  email            : "zethive0225@gmail.com"
+  researchgate     :
+  uri              :                    # TODO: your homepage URL after deployment (e.g., https://<username>.github.io)
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "ZethWang"         # TODO: confirm your github username (if different, change it)
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  linkedin         :                    # TODO: optional
+  dblp             :                    # TODO: optional (if you have it)
+  orcid            :                    # TODO: optional but recommended
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :
