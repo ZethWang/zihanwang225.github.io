@@ -17,42 +17,100 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am **Zihan Wang**, an incoming **M.S. student at Tsinghua University (Sep. 2026)**.  
+I received my B.Eng. in Computer Science and Technology from **Xi'an Jiaotong University** (GPA **3.97/4.30**, Rank **5/193**).
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research focuses on **Large Language Models (LLMs)** and **NLP**, particularly **alignment**, **agents**, and **reasoning**.  
+I also work on **data-centric approaches** (data selection, mixing, and synthesis) and recently explore **self-evolving agents** and **AI for scientific research**.
 
+You can find my publications and citation stats on  
+<a href='https://scholar.google.com/citations?user=eToPcFsAAAAJ&hl=zh-CN'>Google Scholar <strong><span id='total_cit'></span></strong></a>
+( badge: <a href='https://scholar.google.com/citations?user=eToPcFsAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> ).
+
+---
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.09*: &nbsp;🎓 Incoming M.S. student at **Tsinghua University**.
+- *2025*: &nbsp;📌 **EMNLP 2025 (Main)**: *Alignment for Efficient Tool Calling of Large Language Models*.
+- *2025*: &nbsp;📌 **ICML 2025**: *Reducing Tool Hallucination via Reliability Alignment*.
 
-# 📝 Publications 
+---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# 📝 Publications
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+<div class='paper-box'>
+  <div class='paper-box-text' markdown="1">
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Alignment for Efficient Tool Calling of Large Language Models**  
+Hongshen Xu*, **Zihan Wang***, Zichen Zhu, Lei Pan, Xingyu Chen, Lu Chen, Kai Yu
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<span style="float:right">[\[ArXiv\]](https://arxiv.org/abs/2503.06708)</span>
+
+<div class="badge">EMNLP 2025 (Main)</div>
+
+- Aligns tool calling with **knowledge boundaries** to improve efficiency and reduce unnecessary tool usage.
+  </div>
 </div>
+
+<div class='paper-box'>
+  <div class='paper-box-text' markdown="1">
+
+**Reducing Tool Hallucination via Reliability Alignment**  
+Hongshen Xu, Su Zhu, **Zihan Wang**, Hang Zheng, Da Ma, Ruisheng Cao, Shuai Fan, Lu Chen, Kai Yu
+
+<span style="float:right">[\[ArXiv\]](https://arxiv.org/abs/2412.04141)</span>
+
+<div class="badge">ICML 2025</div>
+
+- Introduces **reliability-oriented alignment** to mitigate tool hallucinations and improve tool-use robustness.
+  </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'>
+  <div class='paper-box-text' markdown="1">
+
+**Memento: Fine-tuning LLM Agents without Fine-tuning LLMs**  
+Huichi Zhou*, Yihang Chen*, Siyuan Guo, Xue Yan, Kin Hei Lee, **Zihan Wang**, Ka Yiu Lee, Guchun Zhang, Kun Shao, Linyi Yang†, Jun Wang†
+
+<span style="float:right">[\[ArXiv\]](https://arxiv.org/abs/2508.16153) [\[Code\]](https://github.com/Agent-on-the-Fly/Memento)</span>
+
+<div class="badge">Technical Report</div>
+
+- A memory-based continual-learning framework that enables LLM agents to improve from experience **without updating model weights**.
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-text' markdown="1">
+
+**Delusions of Large Language Models**  
+Hongshen Xu, Zixv Yang, Zichen Zhu, Kunyao Lan, **Zihan Wang**, Mengyue Wu, Ziwei Ji, Lu Chen, Pascale Fung, Kai Yu
+
+<span style="float:right">[\[ArXiv\]](https://arxiv.org/abs/2503.06709)</span>
+
+<div class="badge">Manuscript / In Progress</div>
+
+- Investigates high-confidence hallucination phenomena (“delusions”) and analyzes underlying causes and behaviors.
+  </div>
+</div>
+
+---
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022–2023*: National Scholarship
+- *2023–2024*: Finalist, Outstanding Award — American College Students Mathematical Modeling Competition
+- *2023–2024*: Provincial First Prize — National College Students' Mathematical Competition
+- *2023–2024*: Outstanding Volunteer Award
+- *2024–2025*: Baidu Artificial Intelligence and Big Data Elite Class
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+---
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+# 📖 Education
+- *Sep. 2026 (incoming)*, **Tsinghua University**, M.S.
+- *Sep. 2022 – Jul. 2026*, **Xi'an Jiaotong University**, B.Eng. in Computer Science and Technology
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+---
+
+# 💻 Research Experience (Selected)
+- **CreativeBench: Benchmarking and Enhancing Machine Creativity via Self-Evolving Challenges** — First Author, *ACL 2026 (Under Review)*
+- **LLM Pre-training: Data Selection & Mixing** — Engineering (Megatron-DeepSpeed; 100B tokens; multi-domain mixing/ordering)
