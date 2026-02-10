@@ -18,11 +18,12 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I am **Zihan Wang**, an incoming **M.S. student at Tsinghua University (Sep. 2026)**.  
-I received my B.Eng. in Computer Science and Technology from **Xi'an Jiaotong University** (GPA **3.97/4.30**, Rank **5/193**).
+I received my B.Eng. in Computer Science and Technology from **Xi’an Jiaotong University** (GPA **3.97/4.30**, Rank **5/193**).
 
-My research focuses on **Large Language Models (LLMs)** and **NLP**, particularly **alignment**, **agents**, and **reasoning**.  
-I also work on **data-centric approaches** (data selection, mixing, and synthesis) and recently explore **self-evolving agents** and **AI for scientific research**.
+My research interests center on **NLP / Large Language Models**, with a focus on **alignment**, **tool-using agents**, and **reasoning**.  
+More broadly, I am interested in building **intrinsically-motivated and self-improving agents**, especially for **code** and **scientific research** settings.
 
+Contact: **zethive0225@gmail.com**  |  WeChat: **wishme25**  |  Phone: **(+86) 18223149213**  
 You can find my publications and citation stats on  
 <a href='https://scholar.google.com/citations?user=eToPcFsAAAAJ&hl=zh-CN'>Google Scholar <strong><span id='total_cit'></span></strong></a>
 ( badge: <a href='https://scholar.google.com/citations?user=eToPcFsAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> ).
@@ -30,9 +31,17 @@ You can find my publications and citation stats on
 ---
 
 # 🔥 News
-- *2026.09*: &nbsp;🎓 Incoming M.S. student at **Tsinghua University**.
-- *2025*: &nbsp;📌 **EMNLP 2025 (Main)**: *Alignment for Efficient Tool Calling of Large Language Models*.
-- *2025*: &nbsp;📌 **ICML 2025**: *Reducing Tool Hallucination via Reliability Alignment*.
+- *2026.09*: 🎓 Incoming M.S. student at **Tsinghua University (Shenzhen)**.
+- *2025*: 📌 **EMNLP 2025 (Main)** — *Alignment for Efficient Tool Calling of Large Language Models*.
+- *2025*: 📌 **ICML 2025** — *Reducing Tool Hallucination via Reliability Alignment*.
+
+---
+
+# 🧭 Research Topics
+- **Agent alignment for tool use**: cost-aware tool calling, knowledge boundary estimation, robust multi-turn function calling  
+- **Reliability & hallucinations**: tool hallucination taxonomy, reliability-oriented post-training  
+- **Reasoning & decision making**: improving long-horizon behaviors under verifiable signals  
+- **AI for scientific research**: LLM agents for deep research workflows and automation
 
 ---
 
@@ -48,7 +57,8 @@ Hongshen Xu*, **Zihan Wang***, Zichen Zhu, Lei Pan, Xingyu Chen, Lu Chen, Kai Yu
 
 <div class="badge">EMNLP 2025 (Main)</div>
 
-- Aligns tool calling with **knowledge boundaries** to improve efficiency and reduce unnecessary tool usage.
+- Proposes a **multi-objective alignment** framework combining **probabilistic knowledge boundary estimation** with **dynamic decision making** to reduce unnecessary tool calls while preserving performance.
+
   </div>
 </div>
 
@@ -62,7 +72,8 @@ Hongshen Xu, Su Zhu, **Zihan Wang**, Hang Zheng, Da Ma, Ruisheng Cao, Shuai Fan,
 
 <div class="badge">ICML 2025</div>
 
-- Introduces **reliability-oriented alignment** to mitigate tool hallucinations and improve tool-use robustness.
+- Defines and categorizes tool hallucinations (tool-selection vs tool-usage) and introduces **reliability alignment** to improve robust tool interaction and efficiency.
+
   </div>
 </div>
 
@@ -76,7 +87,8 @@ Huichi Zhou*, Yihang Chen*, Siyuan Guo, Xue Yan, Kin Hei Lee, **Zihan Wang**, Ka
 
 <div class="badge">Technical Report</div>
 
-- A memory-based continual-learning framework that enables LLM agents to improve from experience **without updating model weights**.
+- A memory-based continual improvement framework enabling agents to learn from experience **without updating model weights**.
+
   </div>
 </div>
 
@@ -86,31 +98,4 @@ Huichi Zhou*, Yihang Chen*, Siyuan Guo, Xue Yan, Kin Hei Lee, **Zihan Wang**, Ka
 **Delusions of Large Language Models**  
 Hongshen Xu, Zixv Yang, Zichen Zhu, Kunyao Lan, **Zihan Wang**, Mengyue Wu, Ziwei Ji, Lu Chen, Pascale Fung, Kai Yu
 
-<span style="float:right">[\[ArXiv\]](https://arxiv.org/abs/2503.06709)</span>
-
-<div class="badge">Manuscript / In Progress</div>
-
-- Investigates high-confidence hallucination phenomena (“delusions”) and analyzes underlying causes and behaviors.
-  </div>
-</div>
-
----
-
-# 🎖 Honors and Awards
-- *2022–2023*: National Scholarship
-- *2023–2024*: Finalist, Outstanding Award — American College Students Mathematical Modeling Competition
-- *2023–2024*: Provincial First Prize — National College Students' Mathematical Competition
-- *2023–2024*: Outstanding Volunteer Award
-- *2024–2025*: Baidu Artificial Intelligence and Big Data Elite Class
-
----
-
-# 📖 Education
-- *Sep. 2026 (incoming)*, **Tsinghua University**, M.S.
-- *Sep. 2022 – Jul. 2026*, **Xi'an Jiaotong University**, B.Eng. in Computer Science and Technology
-
----
-
-# 💻 Research Experience (Selected)
-- **CreativeBench: Benchmarking and Enhancing Machine Creativity via Self-Evolving Challenges** — First Author, *ACL 2026 (Under Review)*
-- **LLM Pre-training: Data Selection & Mixing** — Engineering (Megatron-DeepSpeed; 100B tokens; multi-domain mixing/ordering)
+<span style="float:right">[\[ArXiv\]](https://arxiv.org/abs/2503.06709)</spa
