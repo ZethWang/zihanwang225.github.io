@@ -8,26 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
 I am **Zihan Wang**, an incoming **M.S. student at Tsinghua University (Sep. 2026)**.  
 I received my B.Eng. in Computer Science and Technology from **Xi’an Jiaotong University** (GPA **3.97/4.30**, Rank **5/193**).
 
-My research interests center on **NLP / Large Language Models**, with a focus on **alignment**, **tool-using agents**, and **reasoning**.  
-More broadly, I am interested in building **intrinsically-motivated and self-improving agents**, especially for **code** and **scientific research** settings.
+My research interests center on **NLP / Large Language Models (LLMs)**, with a focus on building **reasoning-capable and reliable tool-using agents**.  
+More broadly, I am interested in **intrinsically-motivated and self-improving agents**, especially for **code** and **scientific research** settings, as well as **data-centric training** (data selection, mixing, and synthesis).
 
-Contact: **zethive0225@gmail.com**  |  WeChat: **wishme25**  |  Phone: **(+86) 18223149213**  
-You can find my publications and citation stats on
-<a href='https://scholar.google.com/citations?user=eToPcFsAAAAJ&hl=zh-CN'>Google Scholar</a>.
-
-( badge: <a href='https://scholar.google.com/citations?user=eToPcFsAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> ).
+You can find my publications and citation stats on  
+<a href="https://scholar.google.com/citations?user=eToPcFsAAAAJ&hl=zh-CN">Google Scholar</a>.
 
 ---
 
@@ -42,7 +32,7 @@ You can find my publications and citation stats on
 - **Agent alignment for tool use**: cost-aware tool calling, knowledge boundary estimation, robust multi-turn function calling  
 - **Reliability & hallucinations**: tool hallucination taxonomy, reliability-oriented post-training  
 - **Reasoning & decision making**: improving long-horizon behaviors under verifiable signals  
-- **AI for scientific research**: LLM agents for deep research workflows and automation
+- **AI for scientific research**: LLM agents for deep research workflows and automation  
 
 ---
 
@@ -52,8 +42,7 @@ You can find my publications and citation stats on
   <div class='paper-box-text' markdown="1">
 
 **Alignment for Efficient Tool Calling of Large Language Models**  
-Hongshen Xu*, **Zihan Wang***, Zichen Zhu, Lei Pan, Xingyu Chen, Lu Chen, Kai Yu
-
+Hongshen Xu*, **Zihan Wang***, Zichen Zhu, Lei Pan, Xingyu Chen, Lu Chen, Kai Yu  
 <span style="float:right">[\[ArXiv\]](https://arxiv.org/abs/2503.06708)</span>
 
 <div class="badge">EMNLP 2025 (Main)</div>
@@ -67,13 +56,12 @@ Hongshen Xu*, **Zihan Wang***, Zichen Zhu, Lei Pan, Xingyu Chen, Lu Chen, Kai Yu
   <div class='paper-box-text' markdown="1">
 
 **Reducing Tool Hallucination via Reliability Alignment**  
-Hongshen Xu, Su Zhu, **Zihan Wang**, Hang Zheng, Da Ma, Ruisheng Cao, Shuai Fan, Lu Chen, Kai Yu
-
+Hongshen Xu, Su Zhu, **Zihan Wang**, Hang Zheng, Da Ma, Ruisheng Cao, Shuai Fan, Lu Chen, Kai Yu  
 <span style="float:right">[\[ArXiv\]](https://arxiv.org/abs/2412.04141)</span>
 
 <div class="badge">ICML 2025</div>
 
-- Defines and categorizes tool hallucinations (tool-selection vs tool-usage) and introduces **reliability alignment** to improve robust tool interaction and efficiency.
+- Defines and categorizes tool hallucinations (tool-selection vs tool-usage) and introduces **reliability-oriented alignment** to improve robust tool interaction and efficiency.
 
   </div>
 </div>
@@ -82,8 +70,7 @@ Hongshen Xu, Su Zhu, **Zihan Wang**, Hang Zheng, Da Ma, Ruisheng Cao, Shuai Fan,
   <div class='paper-box-text' markdown="1">
 
 **Memento: Fine-tuning LLM Agents without Fine-tuning LLMs**  
-Huichi Zhou*, Yihang Chen*, Siyuan Guo, Xue Yan, Kin Hei Lee, **Zihan Wang**, Ka Yiu Lee, Guchun Zhang, Kun Shao, Linyi Yang†, Jun Wang†
-
+Huichi Zhou*, Yihang Chen*, Siyuan Guo, Xue Yan, Kin Hei Lee, **Zihan Wang**, Ka Yiu Lee, Guchun Zhang, Kun Shao, Linyi Yang†, Jun Wang†  
 <span style="float:right">[\[ArXiv\]](https://arxiv.org/abs/2508.16153) [\[Code\]](https://github.com/Agent-on-the-Fly/Memento)</span>
 
 <div class="badge">Technical Report</div>
@@ -97,6 +84,28 @@ Huichi Zhou*, Yihang Chen*, Siyuan Guo, Xue Yan, Kin Hei Lee, **Zihan Wang**, Ka
   <div class='paper-box-text' markdown="1">
 
 **Delusions of Large Language Models**  
-Hongshen Xu, Zixv Yang, Zichen Zhu, Kunyao Lan, **Zihan Wang**, Mengyue Wu, Ziwei Ji, Lu Chen, Pascale Fung, Kai Yu
+Hongshen Xu, Zixv Yang, Zichen Zhu, Kunyao Lan, **Zihan Wang**, Mengyue Wu, Ziwei Ji, Lu Chen, Pascale Fung, Kai Yu  
+<span style="float:right">[\[ArXiv\]](https://arxiv.org/abs/2503.06709)</span>
 
-<span style="float:right">[\[ArXiv\]](https://arxiv.org/abs/2503.06709)</spa
+<div class="badge">Manuscript / In Progress</div>
+
+- Investigates high-confidence hallucination phenomena (“delusions”) and analyzes underlying causes and behaviors.
+
+  </div>
+</div>
+
+---
+
+# 🎖 Honors and Awards
+- *2022–2023*: National Scholarship
+- *2023–2024*: Outstanding Award — American College Students Mathematical Modeling Competition
+- *2023–2024*: Provincial First Prize — National College Students’ Mathematical Competition
+- *2023–2024*: Outstanding Volunteer Award
+- *2024–2025*: Baidu Artificial Intelligence and Big Data Elite Class
+
+---
+
+# 📖 Education
+- *Sep. 2026 (incoming)*, **Tsinghua University**, M.S. in AI (Shenzhen)  
+- *Sep. 2022 – Jul. 2026*, **Xi’an Jiaotong University**, B.Eng. in Computer Science and Technology  
+  GPA **3.97/4.30**, Rank **5/193**
