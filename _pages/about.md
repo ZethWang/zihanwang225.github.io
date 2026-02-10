@@ -24,8 +24,9 @@ My research interests center on **NLP / Large Language Models**, with a focus on
 More broadly, I am interested in building **intrinsically-motivated and self-improving agents**, especially for **code** and **scientific research** settings.
 
 Contact: **zethive0225@gmail.com**  |  WeChat: **wishme25**  |  Phone: **(+86) 18223149213**  
-You can find my publications and citation stats on  
-<a href='https://scholar.google.com/citations?user=eToPcFsAAAAJ&hl=zh-CN'>Google Scholar <strong><span id='total_cit'></span></strong></a>
+You can find my publications and citation stats on
+<a href='https://scholar.google.com/citations?user=eToPcFsAAAAJ&hl=zh-CN'>Google Scholar</a>.
+
 ( badge: <a href='https://scholar.google.com/citations?user=eToPcFsAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> ).
 
 ---
